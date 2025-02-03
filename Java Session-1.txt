@@ -1,0 +1,113 @@
+Java buzz words or keywords
+
+Simple
+Platform independent
+Object oriented
+Multi threaded
+Statically typed
+Robust
+Secured
+Well-performed
+
+
+Problem Statements:
+1.Develop an application to accept a number and count no.of digits in it.
+
+2.Develop an application to accept a number and reverse it N times and print number after Nth time.
+
+3.develop an application to find the sum of N numbers.
+
+4.Develop an application to find the sqrt of the given number.
+
+5.Develop an application to accept the cost price of a book and if N books are sold with 20% loss find the selling price and total sale of the same.
+
+
+6.Develop the following app
+
+-------------Welcome to Hotel Ashoka------------------------
+1.Idly(2.00)
+2.Dosa(2.50)
+3.Puri(2.75)
+4.Vada(3.00)
+5.Upma(2.25)
+
+Enter the dish code:3
+How many plates you want :4
+Pls pay amount:11.00
+
+--Thank You Visit Again--
+
+
+Java Coding Conventions:
+-> For variable names, we will follow camel notation.
+eg:-  int employId;
+      double employsalary;
+
+-> For classes,interfaces names : each word first letter must be an upper case.
+eg:- class HelloWorld{   interface TrainTheStudents{
+        }
+
+For methods: must be a verb and follow camel notation.
+
+eg:- void performOperation();
+     void add();
+     void printAllElements();
+
+For final variables: all the letters must be in upper case.
+
+eg:- final int MIN_PRIORITY=1;
+     final int MAX_PRIORITY=10;
+
+For packages: all the letters must be in lowercase.
+
+eg:- package com.ksoft.demo;
+     package java.lang;
+     package java.util.stream;
+
+Arrays:
+-> An array is a variable and in which you can store N no.of elements of similar type and can be processed using any looping control statement.
+->Arrays are used to deal with or process N no.of elements.
+->Arrays are in-built objects in java.
+->Arrays have properties and methods to perform certain operations on them.
+
+Array Declaration:
+
+Syntax: <datatype> <arrayname>[] = new<datatype>[size];
+
+eg:-    int marksOfStudent[]= new int[6];
+
+                     (or)
+Syntax:  <datatype>[]arrayName;
+            arrayName
+
+
+
+Array Initialization:
+
+eg:-   int scores[]=new int[4];
+
+           scores[0]=100;
+           scores[1]=200;
+           scores[2]=300;
+           scores[3]=400;
+
+              (or)
+
+           int scores[]={100,200,300,400};
+
+array length:-
+this field gives the length of the base array
+
+7.Problem statement:
+Develop an application to store N no.of cities into an array and find out the vowel count in each city.
+
+8.Develop an application to store 6 sub student marks and find out the student passed or not.
+if passed,find he is in first or second or third division.
+    First - 80 to 100 percent
+    second - 60 to 79 percent
+    Third - 40 to 59 percent
+    Failed - less than 40
+
+9.a)There are some N no.of oil pots with some amountof oil in each pot.And you will fill each pot for five times with same amount of oil(say 4 ml or 8 ml) and remove 
+a pot,if the amount of oil in a pot is equals to pouring amount.and if a poyt is removed,then shift other pots on left side.Finallyprint the pots available with amount 
+of oil in them.
